@@ -1,0 +1,37 @@
+names:
+- A
+- B
+- C
+- D
+- E
+- F
+- G
+- H
+- I
+- J
+- K
+- L
+- M
+- N
+- O
+- P
+- Q
+- R
+- S
+- T
+- U
+- V
+- W
+- X
+- Y
+- Z
+nc: 26
+roboflow:
+  license: CC BY 4.0
+  project: braille-classification
+  url: https://universe.roboflow.com/binus-if3z9/braille-classification/dataset/1
+  version: 1
+  workspace: binus-if3z9
+test: ../test/images
+train: ../train/images
+val: ../valid/images
