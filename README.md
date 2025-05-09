@@ -51,13 +51,4 @@ A compact toolkit for detecting and translating Braille from images using CNN tr
    cd Braille_Recognition
    pip install -r requirements.txt
 
-├── dataset/                         # Raw & annotated Braille images
-├── saved_models/                    # Trained `.pt` model weights
-├── src/                             # Helper scripts & modules
-├── generate_train_val_test_split.ipynb
-├── Transfer_Learning_with_earlystopping.ipynb
-├── Yolo_with_TL (2).ipynb
-├── BrailleDetection.ipynb
-├── Project_part3_new.ipynb
-├── References.md                    # Citations & resources
-└── requirements.txt
+
