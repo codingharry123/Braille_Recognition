@@ -1,4 +1,4 @@
-# Braille-Recognition
+# Introduction
 
 Communication is a fundamental human right, yet millions of visually impaired individuals
  face significant challenges in expressing and sharing their thoughts, especially those who
