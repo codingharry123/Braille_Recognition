@@ -21,3 +21,8 @@ sivity. With a reliable Braille-to-English translation system, individuals who r
  thoughts, sharing ideas, and participating more fully in society. Our goal is to create a
  tool that empowers those with visual and speech impairments, fostering a world where
  communication barriers no longer define a person’s ability to connect with others.
+
+
+# Architecture
+ The architecture of the project is using Yolo v11 to detect the braille character from the full-page braille book, 
+ then using CNN transfer learning models to classify them, then apply NLP tecknique to improve the final output, which make it readable and sensible.
