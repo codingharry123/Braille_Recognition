@@ -26,3 +26,38 @@ sivity. With a reliable Braille-to-English translation system, individuals who r
 # Architecture
  The architecture of the project is using Yolo v11 to detect the braille character from the full-page braille book, 
  then using CNN transfer learning models to classify them, then apply NLP tecknique to improve the final output, which make it readable and sensible.
+
+ # Braille_Recognition
+
+A compact toolkit for detecting and translating Braille from images using CNN transfer learning and YOLO object detection.
+
+## Features
+- **Data Preparation**  
+  – `generate_train_val_test_split.ipynb` to create train/val/test splits.  
+- **Transfer Learning**  
+  – `Transfer_Learning_with_earlystopping.ipynb` trains CNNs (e.g. MobileNetV2) on Braille character images.  
+- **YOLO Detection**  
+  – `Yolo_with_TL (2).ipynb` fine-tunes YOLOv11 Nano to locate Braille dots on full-page scans.  
+- **End-to-End Pipeline**  
+  – `BrailleDetection.ipynb` and `Project_part3_new.ipynb` demonstrate full inference (detection → classification → NLP correction).  
+- **Pretrained Models**  
+  – Check `saved_models/` for `.pt` weights ready for inference.
+
+## Quick Start
+
+1. **Clone & install**  
+   ```bash
+   git clone https://github.com/codingharry123/Braille_Recognition.git
+   cd Braille_Recognition
+   pip install -r requirements.txt
+
+├── dataset/                         # Raw & annotated Braille images
+├── saved_models/                    # Trained `.pt` model weights
+├── src/                             # Helper scripts & modules
+├── generate_train_val_test_split.ipynb
+├── Transfer_Learning_with_earlystopping.ipynb
+├── Yolo_with_TL (2).ipynb
+├── BrailleDetection.ipynb
+├── Project_part3_new.ipynb
+├── References.md                    # Citations & resources
+└── requirements.txt
